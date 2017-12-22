@@ -9,7 +9,7 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
     
-    
+
     <!-- Spring和mybatis的配置文件 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -65,14 +65,11 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     
-    
-
     <!-- ############################################ filter end  ############################################ -->
 
 
     <!-- ############################################ servlet start  ############################################ -->
 
-    
     <!-- Spring MVC servlet -->
     <servlet>
         <servlet-name>SpringMVC</servlet-name>
@@ -88,11 +85,10 @@
         <servlet-name>SpringMVC</servlet-name>
         <!-- 此处可以可以配置成 *.do ，对应struts的后缀习惯 -->
         <url-pattern>/</url-pattern>
-    </servlet-mapping>
+3    </servlet-mapping>iy
     <welcome-file-list>
         <welcome-file>/index.jsp</welcome-file>
     </welcome-file-list>
-
 
     <!--展示Druid的统计信息-->
     <!--具体可以看官网信息：https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE_StatViewServlet%E9%85%8D%E7%BD%AE-->
@@ -106,10 +102,5 @@
         <url-pattern>/druid/*</url-pattern>
     </servlet-mapping>
     
-    
     <!-- ############################################ servlet end  ############################################ -->
-
-
-
-
 </web-app>
