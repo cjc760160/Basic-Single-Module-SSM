@@ -17,12 +17,11 @@
     </script>
 </head>
 <body>
-
-登录名：${user.sysUserLoginName}
+登录名：${users.sysUserLoginName}
 
 <br>
 
-真实姓名：${user.sysUserRealName}
+真实姓名：${users.sysUserRealName}
 
 </body>
 </html>
